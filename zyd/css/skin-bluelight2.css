@@ -1,0 +1,51 @@
+@media screen and (max-width:800px) {
+	.tinynav {		
+		background:#aecdcf;		
+	}	
+}
+body.boxed div.body {
+	border-top:5px solid #aecdcf;
+}
+.testimonial-name, .service-box.black .circleicon i, .service-box.featured .circleicon i, .service-box:hover i, .footerlogo47, .primarycolor, a, a:hover {
+	color:#aecdcf;
+}
+.cameraContents .camera_caption span, .popular .vuzz-button.buttonprice, .popular .vuzz-button, .popular .vuzz-pricing-per, .popular .vuzz-pricing-cost, .captionicons, a.tagcloud:hover,.tagcloud a:hover, .service-box.featured , .service-box:hover, #skill i, article .day, .totop, .totop:hover, .primarybg {
+	background:#aecdcf;
+}
+.navbar .nav>li>a:focus,.navbar .nav>li>a:hover,.navbar .nav>.active>a,.navbar .nav>.active>a:hover,.navbar .nav>.active>a:focus {	
+	background-color:#aecdcf;
+}
+.navbar .nav li.dropdown.open>.dropdown-toggle,.navbar .nav li.dropdown.active>.dropdown-toggle,.navbar .nav li.dropdown.open.active>.dropdown-toggle {
+	background-color:#aecdcf;	
+}
+#search a {	
+	background:#aecdcf url(../img/part-btn-search.png) no-repeat center center;
+}
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-submenu:hover>a,.dropdown-submenu:focus>a {	
+	background-color:#aecdcf;
+}
+.footerdark h1 {	
+	border-bottom:1px solid #aecdcf;
+}
+.grey-box-icon:hover .fontawesome-icon.circle-white,.grey-box-icon.active .fontawesome-icon.circle-white {
+	background-color:#aecdcf;	
+}
+a.prev,a.next {
+	background:url(../img/carousel_arrows.png) no-repeat #aecdcf;
+}
+a.next {
+	background-position:-22px 0
+}
+.btn-primary {
+	background-color:#aecdcf;
+}
+.panel,.panel1 {
+border-left:8px solid #aecdcf;
+}
+#filter ul li .selected {
+color: #aecdcf !Important;
+}
+.vuzz-pricing-table>div.popular {
+border-top:#aecdcf 3px solid;
+}
+::selection {background:#aecdcf;color:#fff;}
