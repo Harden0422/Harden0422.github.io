@@ -1,0 +1,51 @@
+@media screen and (max-width:800px) {
+	.tinynav {		
+		background:#7f8c8d;		
+	}	
+}
+body.boxed div.body {
+	border-top:5px solid #7f8c8d;
+}
+.testimonial-name, .service-box.black .circleicon i, .service-box.featured .circleicon i, .service-box:hover i, .footerlogo47, .primarycolor, a, a:hover {
+	color:#7f8c8d;
+}
+.cameraContents .camera_caption span, .popular .vuzz-button.buttonprice, .popular .vuzz-button, .popular .vuzz-pricing-per, .popular .vuzz-pricing-cost, .captionicons, a.tagcloud:hover,.tagcloud a:hover, .service-box.featured , .service-box:hover, #skill i, article .day, .totop, .totop:hover, .primarybg {
+	background:#7f8c8d;
+}
+.navbar .nav>li>a:focus,.navbar .nav>li>a:hover,.navbar .nav>.active>a,.navbar .nav>.active>a:hover,.navbar .nav>.active>a:focus {	
+	background-color:#7f8c8d;
+}
+.navbar .nav li.dropdown.open>.dropdown-toggle,.navbar .nav li.dropdown.active>.dropdown-toggle,.navbar .nav li.dropdown.open.active>.dropdown-toggle {
+	background-color:#7f8c8d;	
+}
+#search a {	
+	background:#7f8c8d url(../img/part-btn-search.png) no-repeat center center;
+}
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-submenu:hover>a,.dropdown-submenu:focus>a {	
+	background-color:#7f8c8d;
+}
+.footerdark h1 {	
+	border-bottom:1px solid #7f8c8d;
+}
+.grey-box-icon:hover .fontawesome-icon.circle-white,.grey-box-icon.active .fontawesome-icon.circle-white {
+	background-color:#7f8c8d;	
+}
+a.prev,a.next {
+	background:url(../img/carousel_arrows.png) no-repeat #7f8c8d;
+}
+a.next {
+	background-position:-22px 0
+}
+.btn-primary {
+	background-color:#7f8c8d;
+}
+.panel,.panel1 {
+border-left:8px solid #7f8c8d;
+}
+#filter ul li .selected {
+color: #7f8c8d !Important;
+}
+.vuzz-pricing-table>div.popular {
+border-top:#7f8c8d 3px solid;
+}
+::selection {background:#7f8c8d;color:#fff;}

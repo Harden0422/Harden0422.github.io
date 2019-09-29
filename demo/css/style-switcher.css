@@ -1,0 +1,208 @@
+#switcher-handle
+{
+	height: 100%;
+	width: 145px;
+	position:fixed;	
+	top: 25px;
+	left:-212px;
+	z-index: 999999;
+	
+
+}
+#switcher-handle a#handle
+{
+	z-index:1100!important;
+	 
+	width: 40px;
+	height:165px;
+	position: absolute;
+	left: 210px;
+	top:8%;
+	text-indent: 60px;
+	overflow: hidden;
+	background: url(../images/themestyles.png) 0 0 no-repeat;
+	 
+}
+.block{
+display:block;width:200px;float:left;margin:5px 0;
+}
+.color-box,.bg-box,.pattern-box, .bgimg-box {
+	width:16px;
+	height:16px;
+	display:block;
+	float:left;
+	margin-right:0px;
+	margin-left:1px;
+  	margin-bottom: 1px;
+  	border-radius: 0px;
+  	  -moz-transition:all 0.25s ease 0s; 
+    -webkit-transition:all 0.25s ease 0s;   
+    -o-transition:all 0.25s ease 0s; 
+}
+.bg-box, .bgimg-box{
+	width: 20px;
+	height: 20px;
+}
+ 
+ .color-box:hover,.bg-box:hover,.pattern-box:hover{
+ 	 
+ 	 box-shadow:inset 2px 2px 0px 0 rgba(255, 255, 255, 100),inset -2px -2px 0px 0 rgba(255, 255, 255, 100);
+ }
+.colors-holder{float:left;display:block;}
+
+#switcher-handle a#handle.out
+{
+	background: url(../images/themestyles.png) 0 0 no-repeat;
+}
+.switcher-divider{float:left;width: 100%;border-top: 1px solid #ebebeb;margin: 20px 0 10px 0;position: relative;}
+#style-switcher strong{display: block;font-size:13px;}
+#style-switcher {  
+ 
+	background:#FFF;
+ 	box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.40);
+	width:180px;
+	margin:10px 0 0 10px;
+	height:auto;
+	border-radius:8px;
+	padding:10px 10px 0px 10px ;
+	text-align:left;
+	z-index:1000!important;	
+	color:#636363;
+	float:left;
+	position: absolute;
+	border-bottom:3px solid #464646;
+} 
+#switcher-footer a {color:#fff;}
+#style-switcher p, #style-switcher span {
+	margin-bottom:0;
+}
+#style-switcher #switcher-header{
+	background: #606060;
+	 
+	padding:20px 0px 10px 50px;
+	float:left;
+	width:150px;
+	margin:-10px 0 5px -10px;
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0 ;
+	color:#FFF;
+	line-height:0;
+	height:14px;
+	font-size:14px;
+	
+}
+#style-switcher #switcher-footer fieldset{
+	 
+	padding:10px 0;
+	margin:5px 0;
+}
+#style-switcher #switcher-footer select,select{
+	width:180px;
+	padding:5px 5px;
+	color:#888;
+	border:1pt solid #CCC;
+	-moz-border-radius:4px ;
+	-webkit-border-radius:4px ;
+	border-radius:4px ;
+	background:#FFF;
+}
+  #switcher-footer{
+	background: #606060;
+	 	text-align: center;
+	padding:10px 10px 10px 10px;
+	float:left;
+	width:180px;
+	margin:5px 0  0px -10px;
+	-moz-border-radius: 0 0 6px 6px ;
+	-webkit-border-radius:  0 0 6px 6px ;
+	border-radius:  0 0 6px 6px ;
+	color:#FFF;
+	line-height:0;
+	height:auto;
+	font-size:12px;
+	
+}
+ 
+.color-option{margin:0 2px 0px 3px;float:left;font-size:13px;}
+#switcher-body p,#style-switcher #switcher-footer p { margin-bottom:10px; }
+#colorpicker {
+	margin-left:25px;
+	width: 80px;
+	height: 24px;
+	background: url(../images/colorpicker/select2.png);
+	float:left;
+}
+#colorpicker div {
+	margin-left:25px;
+	width: 80px;
+	height: 24px;
+	background: url(../images/colorpicker/select2.png) center;
+	float:left;
+}
+
+#body-font, #headings-font { width: 130px; }
+.line{
+	width:100%;
+	margin:5px auto;
+	float:left;
+	background:url("../images/pattern-pixel.png") repeat;
+	height:5px;
+}
+.last {margin-right:0px!important;}
+  #colorpicker {
+	width:130px;
+	padding:7px 5px 5px 30px;
+	color:#888;
+	border:1pt solid #CCC;
+	-moz-border-radius:4px ;
+	-webkit-border-radius:4px ;
+	border-radius:4px ;
+	background:#FFF url("../images/colorpicker/button-icon.png") 3px 50% no-repeat;
+	margin-left: 0px;
+	font-size: 11px;
+}
+#colorpicker div {
+ 
+}
+
+#changeFont,#changeFontHeadins{
+	float: left;width:100%;
+}
+
+.increaseFont,.decreaseFont,.resetFont,.increaseFontHeade,.decreaseFontHeader,.resetFontHeader{
+	float: left;
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+	background-color: #FFF;
+	 
+	margin-left:7px;
+	 -moz-transition:all 0.24s ease 0s; 
+    -webkit-transition:all 0.24s ease 0s;   
+    -o-transition:all 0.24s ease 0s; 
+ 
+}
+
+ 
+.increaseFont,.increaseFontHeade{
+
+	background-image:url("../images/plus.png");
+	background-position: center center ;
+	background-repeat: no-repeat;
+}
+	
+	.decreaseFont,.decreaseFontHeader{
+
+	background-image:url("../images/minus.png");
+	background-position: center center ;
+	background-repeat: no-repeat;
+}
+
+	.resetFont,.resetFontHeader{
+
+	background-image:url("../images/reset.png");
+	background-position: center center ;
+	background-repeat: no-repeat;
+}
+
